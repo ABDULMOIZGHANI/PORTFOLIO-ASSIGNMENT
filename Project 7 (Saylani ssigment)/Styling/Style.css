@@ -1,0 +1,486 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #282832;
+}
+
+.main-body {
+    /* color: #41404C; */
+    background-color: #41404C;
+    height: 609px;
+    position: relative;
+    /* z-index: -1; */
+    width: 100%;
+}
+
+#header {
+    display: flex;
+}
+
+#logo img {
+    width: 378px;
+    height: 40px;
+    margin: 9% 26% 7% 26%;
+    cursor: pointer;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    width: 57%;
+    margin: 0px auto;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #BABABA;
+    padding: 0px 34px
+}
+
+#navbar ul li a:hover {
+    color: white;
+}
+
+#icons {
+    position: absolute;
+    right: 0px;
+    margin-right: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+
+}
+
+#icons ul {
+    display: flex;
+}
+
+#icons ul li {
+    list-style: none;
+}
+
+#icons ul li img {
+    padding-left: 34px;
+    cursor: pointer;
+}
+
+.sectionTop {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+}
+
+.sectionIntro {
+    width: 49%;
+}
+
+.sectionIntro h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 104px;
+    letter-spacing: 0.07em;
+    color: #BABABA;
+}
+
+#name {
+    color: white;
+    margin-top: -71px;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 104px;
+    color: #FFFFFF;
+}
+
+.line {
+    width: 268px;
+    height: 6px;
+    background: #09BB94;
+    margin-top: -54px;
+}
+
+.para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.07em;
+    color: #BABABA;
+}
+
+.ManPic {
+    width: 485px;
+    height: 485px;
+    background: #282832;
+    border-radius: 10000px;
+}
+
+.ManPic img {
+    width: 267px;
+    height: 492px;
+    display: block;
+    margin: 0px auto;
+    padding: 0px 0px 120px 0px;
+}
+
+.services {
+    width: 33%;
+    margin-top: 50px;
+}
+
+.services h3 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37px;
+    margin-bottom: -5px;
+    letter-spacing: 0.07em;
+    color: #BABABA;
+}
+
+.services h4 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    color: #09BB94;
+}
+
+.socialIcons :nth-child(2) {
+    margin: 0px 12px;
+}
+
+#brands {
+    width: 85%;
+    margin: -20px auto;
+    height: auto;
+    background: #41404D;
+    box-shadow: 30px 30px 60px rgba(0, 0, 0, 0.3), -30px -30px 60px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+}
+
+.box {
+    /* width: 213px; */
+    height: 76px;
+    background: #BABABA;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    flex: 1 1 213px;
+    margin: 20px;
+}
+
+.box img {
+    width: 213px;
+    height: 76px;
+    display: block;
+    margin: 0px auto;
+}
+
+#mainAll {
+    width: 85%;
+    margin: 80px auto 0px auto;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.second {
+    display: flex;
+}
+
+.first h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+
+
+.right {
+    width: 50%;
+}
+
+.ImageInfo {
+    margin-left: 12px;
+}
+
+
+.ImageInfo h3 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 42px;
+    margin: 0px 0px -12px 0px;
+    color: #FFFFFF;
+}
+
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.image img {
+    width: 294px;
+    border-radius: 12px;
+    height: 179px;
+}
+
+.divide_2 {
+    margin-left: 20px;
+}
+
+.divide_1 h1,
+.divide_2 h1 {
+    color: #09BB94;
+    margin-bottom: -12px;
+}
+
+@media screen and (max-width: 1187px) {
+    #name {
+        color: white;
+        margin-top: -71px;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 104px;
+        color: #FFFFFF;
+    }
+
+    .ManPic {
+        width: 430px;
+        height: 430px;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        color: #BABABA;
+        padding: 0px 21px;
+    }
+}
+
+
+@media screen and (max-width: 1072px) {
+    #navbar {
+        display: none;
+    }
+
+    .main-body {
+        height: auto;
+    }
+
+    .sectionTop {
+        flex-direction: column;
+    }
+
+
+    .sectionIntro {
+        width: 100%;
+        margin: 12px 0px;
+    }
+
+    .picture {
+        display: block;
+        margin: auto;
+    }
+
+
+    .ManPic img {
+        width: 239px;
+        height: 412px;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .services {
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (max-width: 1072px) {
+    #mainAll {
+        flex-direction: column;
+        width: 85%;
+        margin: 80px auto 0px auto;
+        display: flex;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+
+    #icons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #logo {
+        margin: 0px auto;
+    }
+
+    #logo img {
+        width: 486px;
+        height: 50px;
+        margin: 12px 0px -67px 0px;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+
+
+    .image {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .sectionTop {
+        width: 95%;
+        margin: 0px auto;
+        display: flex;
+    }
+}
+
+
+
+@media screen and (max-width: 554px) {
+    #logo {
+        margin: 10px;
+    }
+
+    .para {
+        width: 100%;
+    }
+
+    .ManPic {
+        width: 349px;
+        height: 349px;
+    }
+
+    .ManPic img {
+        width: 191px;
+        height: 334px;
+        display: block;
+        margin: 0px auto;
+    }
+
+    #mainAll {
+        flex-direction: column;
+        width: 94%;
+        margin: 32px 0px 0px 10px;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    #logo img {
+        width: 384px;
+        height: 42px;
+        margin: 12px 0px -43px 0px;
+        cursor: pointer;
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .divide_2 {
+        margin-left: 0px;
+    }
+
+    .ImageInfo {
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 497px) {
+    #logo img {
+        width: 318px;
+        height: 32px;
+        margin: 0px 0px -43px 0px;
+        cursor: pointer;
+    }
+
+    .image img {
+        width: 270px;
+        border-radius: 12px;
+        height: 179px;
+    }
+}
+
+
+@media screen and (max-width: 497px) {
+    .ManPic {
+        width: 270px;
+        height: 270px;
+    }
+
+    .ManPic img {
+        width: 149px;
+        height: 260px;
+        display: block;
+        margin: 0px auto;
+    }
+}
